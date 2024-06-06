@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EXO Entertainment</title>
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+  crossorigin="anonymous"
+  />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+  crossorigin="anonymous"
+  ></script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+  }
+  .navbar-brand {
+      font-weight: bold;
+  }
+  .jumbotron {
+      background-color: #343a40;
+      color: #ffffff;
+      padding: 100px 0;
+  }
+  .jumbotron h1 {
+      font-size: 3.5rem;
+  }
+  .jumbotron p {
+      font-size: 1.25rem;
+  }
+  .feature-icon {
+      font-size: 2.5rem;
+      color: #007bff;
+  }
+  .feature-heading {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #343a40;
+  }
+  .feature-description {
+      font-size: 1rem;
+      color: #6c757d;
+  }
+  .section {
+      padding: 50px 0;
+  }
+  #official-merchandise {
+    padding: 50px 0;
+}
+.merch-card {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.merch-card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+.merch-card img {
+    max-width: 100%;
+    height: auto;
+}
+.merch-title {
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.merch-price {
+    font-size: 1rem;
+    color: #007bff;
+    margin-bottom: 0;
+}
+.team-member {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.team-member img {
+  width: 150px; 
+  height: 150px; 
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.photo-gallery {
+    padding: 20px;
+    margin: 0 auto;
+}
+.photo-item {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.photo-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+.photo-item:hover img {
+    transform: scale(1.05);
+}
+.center-button {
+    text-align: center;
+}
+.card {
+    height: auto;
+    margin-bottom: 20px;
+}
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.footer p {
+  margin-bottom: 0;
+}
+</style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">EXO Entertainment</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+        </li>
+    </ul>
+</div>
+</div> 
+</nav>
+
+<!-- Header -->
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class ="row">
+      <div class="col-md-12 col-xl-12" style="padding-top: 30px;">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://i.pinimg.com/564x/40/20/cb/4020cb0c033312e47bba9d4dd79fdd80.jpg" alt="Pict 1" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="https://i.pinimg.com/564x/5c/2f/c0/5c2fc01c24472285fe4bd85024cb10a3.jpg" alt="Pict 2" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="https://i.pinimg.com/564x/ad/82/4c/ad824c8ba01c40c454b657bf72d6822e.jpg" alt="Pict 3" class="d-block w-100">
+        </div>
+    </div>
+</div>
+</div>
+
+
+<!-- Left and right controls/icons -->
+<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+  <span class="carousel-control-next-icon"></span>
+</button>
+</div>
+<!-- Features -->
+<section class="container text-center mt-5">
+    <div class="row">
+      <div class="col-md-4">
+        <i class="fas fa-music feature-icon"></i>
+        <h2 class="feature-heading">Quality Music</h2>
+        <p class="feature-description">We produce high-quality music that resonates with our audience.</p>
+    </div>
+    <div class="col-md-4">
+        <i class="fas fa-users feature-icon"></i>
+        <h2 class="feature-heading">Talented Artists</h2>
+        <p class="feature-description">Our team consists of talented artists dedicated to their craft.</p>
+    </div>
+    <div class="col-md-4">
+        <i class="fas fa-globe feature-icon"></i>
+        <h2 class="feature-heading">Global Reach</h2>
+        <p class="feature-description">We reach audiences worldwide with our captivating performances.</p>
+    </div>
+</div>
+</section>
+
+<!-- About Section -->
+<section class="container my-5">
+    <div class="row">
+      <div class="col-md-6 order-md-1">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title"><b>About Us</b></h4>
+            <p class="card-text">EXO Entertainment adalah perusahaan hiburan terkemuka yang menghadirkan karya-karya seni terbaik. Kami menyajikan pengalaman hiburan yang tak terlupakan melalui musik, pertunjukan, dan konten kreatif. Bergabunglah dengan kami dalam perjalanan kami untuk menginspirasi dan menghibur audiens di seluruh dunia.</p>
+        </div>
+    </div>
+</div>
+<div class="col-md-6 order-md-2">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title"><b>Our Services</b></h4>
+        <p class="card-text">
+          <ul>
+            <li>Produksi Musik dan Video Musik</li>
+            <li>Penyelenggaraan Konser dan Tour</li>
+            <li>Pelatihan Artistik</li>
+            <li>Lisensi dan Penyiaran</li>
+        </ul>
+    </p>
+</div>
+</div>
+</div>
+</div>
+<section id="official-merchandise">
+    <div class="container">
+        <h2 class="text-center mb-4"><b>Official Merchandise</b></h2>
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="merch-card text-center p-4">
+                    <img src="https://i.pinimg.com/564x/52/b0/1b/52b01b71b2371ce6ef19993a6b32dc10.jpg" class="img-fluid" alt="Merchandise 1">
+                    <h5 class="merch-title">Lightstick</h5>
+                    <p class="merch-price">760.000 IDR</p>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="merch-card text-center p-4">
+                    <img src="https://i.pinimg.com/564x/2f/ca/02/2fca020aa610fb12bc604d8beeaafc35.jpg" class="img-fluid" alt="Merchandise 2">
+                    <h5 class="merch-title">Album</h5>
+                    <p class="merch-price">275.000 IDR</p>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="merch-card text-center p-4">
+                    <img src="https://i.pinimg.com/564x/38/23/1f/38231f2fe4c5b34e9f029fe8ceb587e8.jpg" class="img-fluid" alt="Merchandise 3">
+                    <h5 class="merch-title">Doll</h5>
+                    <p class="merch-price">100.000 IDR</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="row">
+  <div class="col-md-12 col-xl-12" style="padding-top: 5px;">
+    <h2><center><b>Our Team</b></center></h2>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-2">
+          <div class="team-member">
+            <img src="https://i.pinimg.com/564x/60/4f/3d/604f3d05f99f3b1d4112ce0ea4506fce.jpg" alt="Team Member 1">
+            <h5><b>Suho</b></h5>
+            <p>CEO</p>
+        </div>
+    </div>
+    <div class="col-md-2">
+      <div class="team-member">
+        <img src="https://i.pinimg.com/564x/ca/88/ae/ca88ae932057eacd327316d421981c11.jpg" alt="Team Member 2">
+        <h5><b>Lay Zhang</b></h5>
+        <p>Producer</p>
+    </div>
+</div>
+<div class="col-md-2">
+  <div class="team-member">
+    <img src="https://i.pinimg.com/564x/8a/be/63/8abe63179bdf621eca429aa1663a6df9.jpg" alt="Team Member 3">
+    <h5><b>Chanyeol</b></h5>
+    <p>Director</p>
+</div>
+</div>
+<div class="col-md-2">
+  <div class="team-member">
+    <img src="https://i.pinimg.com/564x/6f/a8/27/6fa827694ee5336b5e94faab7b4497b0.jpg" alt="Team Member 4">
+    <h5><b>Sehun</b></h5>
+    <p>Manager</p>
+</div>
+</div>
+<div class="col-md-2">
+  <div class="team-member">
+    <img src="https://i.pinimg.com/564x/16/2a/49/162a49d160b98c8701ce103e52b35206.jpg" alt="Team Member 5">
+    <h5><b>Baekhyun</b></h5>
+    <p>Choreographer</p>
+</div>
+</div>
+<div class="col-md-2">
+  <div class="team-member">
+    <img src="https://i.pinimg.com/564x/4c/7a/cc/4c7accc8f72661d70b701a8670d8e5d4.jpg" alt="Team Member 6">
+    <h5><b>Kyungsoo</b></h5>
+    <p>Marketing Manager</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<div class="row">
+  <div class="col-md-12 col-xl-12" style="padding-top: 5px;">
+    <h2><center><b>EXO Entertainment's Gallery</b></center></h2>
+    <div class="container">
+        <div class="photo-gallery">
+            <div class="row">
+                <div class="col-md-4 col-lg-3 photo-item">
+                    <img src="https://i.pinimg.com/564x/87/e0/12/87e01201caf524de3d9264a38d69c52c.jpg" alt="Photo 1">
+                </div>
+                <div class="col-md-4 col-lg-3 photo-item">
+                    <img src="https://i.pinimg.com/564x/68/7f/b1/687fb1ede2f531879cc79fcaa4919e74.jpg" alt="Photo 2">
+                </div>
+                <div class="col-md-4 col-lg-3 photo-item">
+                    <img src="https://i.pinimg.com/564x/2e/e9/d4/2ee9d4f46ff8fc5ef3a37ca01d5e968f.jpg" alt="Photo 3">
+                </div>
+                <div class="col-md-4 col-lg-3 photo-item">
+                    <img src="https://i.pinimg.com/736x/67/8d/5a/678d5a9117a70f7d10c8ca862ae94eee.jpg" alt="Photo 4">
+                </div>
+                <div class="col-md-4 col-lg-3 photo-item">
+                    <img src="https://i.pinimg.com/564x/4d/0e/dd/4d0edd509bc1dd5bb50cdfb592485bcd.jpg" alt="Photo 5">
+                </div>
+                <div class="col-md-4 col-lg-3 photo-item">
+                    <img src="https://i.pinimg.com/564x/f6/73/46/f67346d2a635782cd819d07fcbe2686b.jpg" alt="Photo 6">
+                </div>
+                <div class="col-md-4 col-lg-3 photo-item">
+                    <img src="https://i.pinimg.com/564x/8b/86/d5/8b86d582205c6cef989625b338d2a78c.jpg" alt="Photo 7">
+                </div>
+                <div class="col-md-4 col-lg-3 photo-item">
+                    <img src="https://i.pinimg.com/564x/6d/f4/3f/6df43f4d9a8bb929e370222a221ae669.jpg" alt="Photo 8">
+                </div>
+            </div>
+            <div class="row center-button">
+                <div class="col-md-12">
+                    <button class="btn btn-primary">See More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="container mt-5">
+        <div class="card text-center">
+            <div class="card-body">
+                <h2 class="card-title"><b>Contact Us</b></h2>
+                <p class="card-text">For any inquiries or assistance, feel free to contact us:</p>
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-envelope"></i> Email: exoent@mail.com</li>
+                    <li><i class="fas fa-phone"></i> Phone: (021) 20392004</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Address:  Jl. Jenderal Sudirman No.1/3, RT.1/RW.3, Gelora, Tanah Abang, Central Jakarta City, Jakarta 10270</li>
+                </ul>
+                <p class="card-text">You can also follow us on social media:</p>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 EXO Entertainment. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
